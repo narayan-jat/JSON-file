@@ -205,7 +205,7 @@ def is_currency(code):
 	False
 	'''
 	return not(has_error(query_website(code ,code ,amt=5 )))
-	
+# this code has been for testing purpose.	
 # if __name__=='__main__':
 # 	import doctest
 # 	doctest.testmod()
